@@ -1,0 +1,58 @@
+.titulo-principal{
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+#banner{ 
+    width: 100%;
+}
+
+.main{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    /*height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;*/
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: #FF0000;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.motivos{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.motivos h3{
+    font-size: 25px;
+}
+
+.items{
+    font-size: 20px;
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgMotivos{
+    width: 50%;
+}

@@ -1,53 +1,115 @@
-.titulo-principal{
-    padding-left: 30px;
+.header-productos{
+    /*background-color: #BBBBBB;*/
+      padding: 20px 0;
+      background: url(imagenes/bg.jpg);
 }
 
-#banner{ 
-    width: 100%;
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.main{
-    background: #CCCCCC;
-    padding: 20px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
 }
 
-.titulo-centralizado{
-    text-align: center;
-    /*height: 150px;
-    border: 10px solid #000000;
-    padding: 20px;
-    margin: 40px;*/
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-p{
-    text-align: center;
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-em strong{
-    color: #FF0000;
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-#mision{
-    font-size: 20px;
+.ul-productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.motivos{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-.items{
-    font-size: 20px;
-    font-style: italic;
-}
-
-ul{
+.ul-productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imgMotivos{
+.ul-productos li:hover{
+    border-color: #c78c19;
+}
+
+.ul-productos li:hover h2{
+    font-size: 33px;
+}
+
+.ul-productos li:active{
+    border-color: #088c19;
+}
+
+.ul-productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
